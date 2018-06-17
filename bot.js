@@ -30,6 +30,7 @@ new CronJob(
     globalReplyPara),
   null,
   true,
+  'Europe/Paris'
 );
 
 bot.startPolling();
