@@ -21,7 +21,7 @@ bot.on('sticker', (ctx) => ctx.reply('👍'));
 bot.hears('hi', (ctx) => ctx.reply('Hey there, special keyboard has been activated!',
   { reply_markup: Markup.keyboard([
       ['RER from work', 'RER from home'],
-      ['Weather in Paris', 'Bus'],
+      ['Weather in Paris', 'Bus from home'],
       ['Morning digest','Evening digest']
     ]).resize() }));
 
